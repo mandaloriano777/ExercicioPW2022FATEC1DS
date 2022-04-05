@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Comandos vistos em aula! </title>
+</head>
+<body>
+    <h1> Testando comandos </h1>
+
+    <p> 
+      Meu nome é felipe e minha meta é evoluir no HTML , assim como estou evoluindo no portugol Studio.
+      Segue abaixo alguns treinos, com comandos basicos.
+    </p>
+<hr>
+
+<h4> Testando o comando que eleva o número </h4>
+     
+      Quanto é dois elevado a 5 ? <br> 
+      2 <sup> 5 </sup> =  32 
+
+<h4> Testando o comando que baixa o número </h4>
+      Meu nome  <sub> é Felipe</sub>
+  </p>
+      <hr>
+ <pre> Para que serve esse comando??</pre>
+
+ <h3> como deixar o texto em Negrito</h3>
+  
+ <p> Meu nome é <strong> Felipe </strong></p>
+ <p> Meu nome é <b> Felipe </b></p>
+
+<hr>
+
+<h3> Como deixar um texto em italico </h3>
+<p> Meu nome é <i> Felipe </i></p>
+<p> Meu nome é <em> Felipe </em></p>
+
+ <hr>
+
+ <h3> Como deixar um texto sublinhado </h3>
+<p> Meu nome é <u> Felipe </u></p>
+<p> Meu nome é <em> Felipe </em></p>
+ 
+<h3> Testando 3 códigos em uma palavra </h3>
+<u><b><em> Felipe </em></b></u>
+
+<hr>
+
+<p>
+Compre seu produto ainda hoje com desconto! <br>
+<small> Veja as condições</small>
+</p>
+
+<hr>
+
+<p>Meus <cite> pais </cite> escolheram meu nome!</p> 
+<p>Meus <q> pais </q> escolheram meu nome! </p>
+
+</body>
+</html>
