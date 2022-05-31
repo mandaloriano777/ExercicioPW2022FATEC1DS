@@ -1,0 +1,17 @@
+/*seletor de classe*/
+.tabelacss{
+    border-style: outset;
+    padding: 8px;
+    width: 350px;
+    height: 150px;
+    background-color:rgb(221, 221, 221);
+    
+}
+
+th{
+   padding-right: 100%;
+   color: rgb(0, 107, 156);
+   
+}
+
+
