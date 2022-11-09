@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Exercicio 04 </title>
+    <style>
+        div#area {
+            background-color: green;
+            color: white;
+            width: 200px;
+            height: 200px;
+            line-height: 200px;
+            text-align: center;
+        }
+    </style>
+</head>
+
+<body>
+    <!--onmouseenter 'quando o mouse tiver por cima', que detecta a ação do 
+        mouse estar sobre um determinado elemento da página.-->
+
+    <!-- onmouseout detecta o contrário: o evento de sair com o mouse de uma região.-->
+
+    <!--O evento onclick executa determinada funcionalidade quando um botão é clicado.-->
+
+    <div id="area" onclick="clicar()" onmouseenter="entrar()" onmouseout="sair()">
+        INTERAJA..
+    </div>
+</body>
+<script>
+    var eventos = document.getElementById('area')
+
+    function clicar() {
+
+        eventos.innerText = 'CLICOU!'
+        eventos.style.backgroundColor = "#ff0000"
+    }
+
+    function entrar() {
+        eventos.innerText = 'ENTROU!'
+        eventos.style.backgroundColor = "black"
+    }
+
+    function sair() {
+        eventos.innerText = 'SAIU!'
+        eventos.style.backgroundColor = "orange"
+
+    }
+</script>
+
+</html>
