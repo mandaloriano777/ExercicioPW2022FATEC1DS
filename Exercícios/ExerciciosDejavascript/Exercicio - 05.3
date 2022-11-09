@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>exercicio 05-3 Função Construtor </title>
+</head>
+
+<body>
+    
+    <script>
+
+        /*Em questão de funcionamento, funções contrutoras no JavaScript servem de molde para a criação de objetos.*/
+
+        function Carro(marca, modelo, ano, cor) {
+            this.marca = marca
+            this.modelo = modelo
+            this.ano = ano
+            this.cor = cor
+        }
+
+        //Esses são os objetos criados (Novos Carros) apartir da função construtora com base no modelo definido.
+
+        const carro1 = new Carro('Charger', 'RT', 1970, 'Black')
+
+        const carro2 = new Carro('Opala', 'Esportivo', 1968, 'Orange')
+
+        console.log(carro1)
+
+    </script>
+</body>
+
+</html>
